@@ -1,0 +1,52 @@
+.header__ttl {
+    display: inline-block;
+    color: #1220a5;
+    font-size: 20px;
+    margin: 25px 25px;
+}
+
+ul {
+    color: #1220a5;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.content {
+    position: relative;
+}
+
+.content__ttl {
+    font-size: 70px;
+    font-weight: 100;
+    position: absolute;
+    top: 350px;
+}
+
+.img {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 70px 0 0 0;
+}
+
+img {
+    width: 650px;
+    height: 450px;
+    z-index: 10;
+}
+
+.box {
+    background-color: #1220a5;
+    width: 1000px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    z-index: 0;
+}
