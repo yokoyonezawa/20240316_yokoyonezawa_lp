@@ -1,3 +1,8 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
 .header__ttl {
     display: inline-block;
     color: #1220a5;
@@ -11,11 +16,12 @@ ul {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+    margin-left: 850px
 }
 
 li {
     display: inline-block;
-    margin: 20px 20px;
+    margin: 30px 30px 0 0;
 }
 
 .content {
