@@ -1,12 +1,15 @@
 .header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
 }
 
 .header__ttl {
     display: inline-block;
     color: #1220a5;
-    font-size: 20px;
+    font-size: 35px;
     margin: 25px 25px;
 }
 
